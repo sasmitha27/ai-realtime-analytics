@@ -220,5 +220,3 @@ Troubleshooting and tips:
 - If Spark can't find the Kafka source, ensure you included the `--packages` flag for `spark-sql-kafka-0-10` and used a writable Ivy cache (`--conf 'spark.jars.ivy=/tmp/.ivy2'`).
 - If you prefer running Spark locally on your host (not in Docker), install a JDK (OpenJDK 11 or 17) and ensure `SPARK_HOME`/`pyspark` are configured — otherwise containerized Spark avoids host Java setup.
 - If Postgres has no data, `ai/train_model.py` will fail; seed the `revenue_per_minute` table using `warehouse/schema.sql` and sample data.
-
-If you want, I can add a `Makefile` with `make up`, `make run-spark`, `make test`, and `make down` to automate these steps. Reply with `yes` and I'll add it.

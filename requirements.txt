@@ -2,6 +2,7 @@ numpy
 joblib
 scikit-learn
 pandas
+streamlit
 psycopg2-binary
 kafka-python
 pyspark
