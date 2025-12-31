@@ -1,0 +1,7 @@
+numpy
+joblib
+scikit-learn
+pandas
+psycopg2-binary
+kafka-python
+pyspark
